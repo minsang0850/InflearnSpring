@@ -11,6 +11,7 @@ public class NetworkClient {
         call("초기화 연결 메시지");
     }
     public void setUrl(String url) {
+        System.out.println("call setUrl method");
         this.url = url;
     }
     //서비스 시작시 호출
